@@ -21,7 +21,7 @@ try:
     DJANGO_LEDGER_GRAPHQL_SUPPORT_ENABLED = True
 except ImportError:
     DJANGO_LEDGER_GRAPHQL_SUPPORT_ENABLED = False
-
+#
 try:
     from fpdf import FPDF
 
