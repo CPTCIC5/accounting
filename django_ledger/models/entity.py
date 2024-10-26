@@ -52,6 +52,8 @@ from django_ledger.models.utils import lazy_loader
 from django_ledger.models.vendor import VendorModelQuerySet, VendorModel
 from django_ledger.settings import DJANGO_LEDGER_DEFAULT_CLOSING_ENTRY_CACHE_TIMEOUT
 
+from django_ledger.models.firm import Firm
+
 UserModel = get_user_model()
 
 ENTITY_RANDOM_SLUG_SUFFIX = ascii_lowercase + digits
@@ -759,6 +761,7 @@ class EntityModelAbstract(MP_Node,
                                        blank=True,
                                        null=True,
                                        on_delete=models.PROTECT)
+    firm= models.ForeignKey(Firm, on_delete=models.CASCADE, blank=True, null=True)
     admin = models.ForeignKey(UserModel,
                               on_delete=models.CASCADE,
                               related_name='admin_of',

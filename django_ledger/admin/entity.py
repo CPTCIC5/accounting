@@ -75,6 +75,7 @@ class EntityModelAdmin(ModelAdmin):
         (
             'Entity Information', {
                 'fields': [
+                    'firm',
                     'name',
                     'admin',
                     'fy_start_month',
