@@ -1,9 +1,4 @@
 """
-Django Ledger created by Miguel Sanda <msanda@arrobalytics.com>.
-Copyright© EDMA Group Inc licensed under the GPLv3 Agreement.
-
-Contributions to this module:
-Miguel Sanda <msanda@arrobalytics.com>
 
 This is a random data generator module used during the testing of the API and for Educational purposes.
 

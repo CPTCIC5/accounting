@@ -1,9 +1,4 @@
 """
-Django Ledger created by Miguel Sanda <msanda@arrobalytics.com>.
-Copyright© EDMA Group Inc licensed under the GPLv3 Agreement.
-
-Contributions to this module:
-    * Miguel Sanda <msanda@arrobalytics.com>
 
 This module provides the building block interface for Django Ledger. The classes and functions contained in this module
 provide an interface to Django Ledger to create and manage Transactions into the Database. It also provides an

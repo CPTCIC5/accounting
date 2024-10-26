@@ -1,11 +1,4 @@
-"""
-Django Ledger created by Miguel Sanda <msanda@arrobalytics.com>.
-Copyright© EDMA Group Inc licensed under the GPLv3 Agreement.
 
-Contributions to this module:
-Miguel Sanda <msanda@arrobalytics.com>
-Michael Noel <noel.michael87@gmail.com>
-"""
 
 from django.forms import ModelForm, modelformset_factory, BaseModelFormSet, TextInput, Select, ValidationError
 from django.utils.translation import gettext_lazy as _
